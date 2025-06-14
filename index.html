@@ -8,6 +8,9 @@
     <title>O Código dos Gênios | 100 Prompts Para Tirar Ideias do Papel e Ganhar Dinheiro</title>
     <meta name="description" content="Descubra 100 prompts criativos e estratégicos para transformar suas ideias em dinheiro. Desbloqueie sua mente com O Código dos Gênios!">
     
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>">
+    
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -53,7 +56,7 @@
             <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-300 mb-8">
                 Um guia prático, direto ao ponto e sem enrolação, feito pra quem tá cansado de só ter boas ideias… e nunca executar nada.
             </p>
-            <a href="#oferta" class="inline-block bg-yellow-400 text-gray-900 font-bold text-xl md:text-2xl px-10 py-5 rounded-lg shadow-lg hover:bg-yellow-500 transition-transform transform hover:scale-105 cta-pulse">
+            <a href="https://pay.kiwify.com.br/sIQOchl" class="inline-block bg-yellow-400 text-gray-900 font-bold text-xl md:text-2xl px-10 py-5 rounded-lg shadow-lg hover:bg-yellow-500 transition-transform transform hover:scale-105 cta-pulse">
                 👉 Quero Desbloquear Minha Mente Agora
             </a>
         </div>
@@ -111,7 +114,7 @@
             <h2 class="text-3xl font-bold text-white mb-2">🎉 Oferta Especial de Lançamento</h2>
             <p class="text-5xl md:text-7xl font-black my-4">
                 <span class="text-red-500 line-through text-4xl mr-4">R$ 97,00</span>
-                <span class="text-green-400">por apenas R$ 47,00</span>
+                <span class="text-green-400">por apenas R$ 37,00</span>
             </p>
             <div class="bg-yellow-500 text-black font-semibold p-3 rounded-lg inline-block my-4">
                 📥 Entrega imediata por e-mail + Acesso vitalício ao material.
@@ -119,7 +122,7 @@
             <p class="text-yellow-300 font-bold mt-6 mb-8 text-lg">
                 ⏳ Oferta válida apenas até hoje às 23:59!
             </p>
-            <a href="#compra" class="inline-block bg-green-500 text-white font-bold text-xl md:text-2xl px-10 py-5 rounded-lg shadow-lg hover:bg-green-600 transition-transform transform hover:scale-105">
+            <a href="https://pay.kiwify.com.br/sIQOchl" class="inline-block bg-green-500 text-white font-bold text-xl md:text-2xl px-10 py-5 rounded-lg shadow-lg hover:bg-green-600 transition-transform transform hover:scale-105">
                 👉 Desbloquear Agora o Código dos Gênios
             </a>
         </div>
@@ -194,7 +197,7 @@
                 </div>
             </div>
              <div class="mt-12">
-                 <a href="#oferta-final" class="inline-block bg-yellow-400 text-gray-900 font-bold text-xl md:text-2xl px-10 py-5 rounded-lg shadow-lg hover:bg-yellow-500 transition-transform transform hover:scale-105">
+                 <a href="https://pay.kiwify.com.br/sIQOchl" class="inline-block bg-yellow-400 text-gray-900 font-bold text-xl md:text-2xl px-10 py-5 rounded-lg shadow-lg hover:bg-yellow-500 transition-transform transform hover:scale-105">
                     👉 SIM, QUERO GARANTIR MINHA VAGA!
                 </a>
             </div>
@@ -214,11 +217,15 @@
                  <a href="#" class="hover:text-white"><i data-feather="facebook"></i></a>
                  <a href="#" class="hover:text-white"><i data-feather="youtube"></i></a>
             </div>
-            <p class="text-sm">&copy; 2024 O Código dos Gênios. Todos os direitos reservados.</p>
+            <p class="text-sm">&copy; <span id="current-year"></span> O Código dos Gênios. Todos os direitos reservados.</p>
         </div>
     </footer>
 
     <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Initialize Feather Icons
         feather.replace();
     </script>
 </body>
